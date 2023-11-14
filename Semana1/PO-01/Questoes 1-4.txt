@@ -1,0 +1,13 @@
+1 - Em Java, uma classe é uma espécie de modelo em que, a partir dele,
+são criados objetos. Por outro lado, objetos são variáveis (derivadas de 
+uma classe) que possuem atributos que os definem. Além disso, eles podem 
+executar ações a partir dos métodos de sua classe. Podemos dizer que objetos 
+da mesma classe têm o mesmo comportamento.
+
+2 - Em Java, ao declarar uma variável se especifica o tipo dela e o valor
+a qual ela vai apontar. É importante notar que a variável não guarda um 
+valor, mas um endereço que contém um valor, enquanto que em c++, normalmente,
+uma variável guarda um valor. Em java, os tipos primitivos mais comuns são:
+int, double, float, boolean e char.
+
+3 - 
