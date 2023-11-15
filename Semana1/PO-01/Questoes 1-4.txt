@@ -10,4 +10,16 @@ valor, mas um endereço que contém um valor, enquanto que em c++, normalmente,
 uma variável guarda um valor. Em java, os tipos primitivos mais comuns são:
 int, double, float, boolean e char.
 
-3 - 
+3 - É possível criar classes derivadas de outras classes. Uma classe
+derivada (filha) recebe os atributos e métodos da classe superior (mãe),
+além de poder ter suas próprias características individuais.
+Por exemplo, em uma classe mãe "Animal" e uma classe filha "Mamífero", 
+todo mamífero é um animal, mas nem todo animal é mamífero. 
+Classes filhas podem sobrescrever métodos da sua classe mãe e 
+também podem derivar outras classes.
+
+4 - Em java é guardado um ponteiro de um endereço que contém valor, enquanto
+que c++ guarda um valor. Quando mudamos o valor de uma variável em java, 
+ela deixa de apontar pra o endereço anterior e passa a apontar para outro.
+Com isso, o endereço que não é apontado por nenhuma variável tem a 
+memória liberada automaticamente pelo garbage collector.
