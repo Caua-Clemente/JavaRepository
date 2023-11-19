@@ -14,7 +14,7 @@ public class ConversorTemperatura {
 		System.out.println("Digite o tipo atual da temperatura: ");
 		tipo = sc.nextLine();
 		
-		if(tipo.equals("celsius")) {
+		if(tipo.toLowerCase().equals("celsius")) {
 			newTemp = (temp * 1.8) + 32;
 			System.out.println(temp + " graus Celsius e = " + newTemp + " graus Fahrenheit");
 		}
