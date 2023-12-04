@@ -1,0 +1,10 @@
+package provaJava;
+
+public class Passageiro {
+	String nome;
+    String CPF;
+    String numCartao;
+    String tipoCartao;
+    list<Ponto> pontoEmbarques 
+    list<DateTime> horaEmbarque
+}
