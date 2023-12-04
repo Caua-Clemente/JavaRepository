@@ -1,0 +1,7 @@
+package provaJava;
+
+public class Trecho {
+	private Ponto origem;
+	private Ponto destino;
+	private int tempoIntervalo;
+}

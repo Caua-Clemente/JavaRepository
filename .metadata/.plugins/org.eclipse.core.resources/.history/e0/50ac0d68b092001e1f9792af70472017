@@ -1,0 +1,6 @@
+package provaJava;
+
+public class Veiculo {
+	private String placa;
+	private int anoCompra;
+}

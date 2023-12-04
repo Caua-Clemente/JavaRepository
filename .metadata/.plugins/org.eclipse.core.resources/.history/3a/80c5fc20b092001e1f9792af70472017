@@ -1,0 +1,12 @@
+package provaJava;
+
+import java.time.LocalDate;
+import java.util.ArrayList;
+import java.util.List;
+
+public class Trajeto {
+	private String codigo;
+	private List<Trecho> trechos = new ArrayList<Trecho>();
+	private LocalDate inicioTrajeto;
+	private Checkpoint checkpoint;
+}

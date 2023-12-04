@@ -1,7 +1,17 @@
 package provaJava;
 
 public class Trecho {
-	Ponto origem;
-    Ponto destino;
-    int tempoIntervalo;
+	private Ponto origem;
+	private Ponto destino;
+	private int tempoIntervalo;
+	
+	public Ponto getOrigem() {
+		return origem;
+	}
+	public Ponto getDestino() {
+		return destino;
+	}
+	public int getTempoIntervalo() {
+		return tempoIntervalo;
+	}
 }

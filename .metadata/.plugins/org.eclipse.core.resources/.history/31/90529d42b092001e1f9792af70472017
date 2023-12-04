@@ -1,0 +1,13 @@
+package provaJava;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Jornada {
+	private String codigo;
+	private List<Trajeto> trajetos = new ArrayList<Trajeto>();
+	private Motorista motorista;
+	private Veiculo veiculo;
+	private Cobrador cobrador;
+	private int trajetoAtual;
+}

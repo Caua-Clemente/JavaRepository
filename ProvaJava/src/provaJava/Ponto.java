@@ -1,5 +1,9 @@
 package provaJava;
 
 public class Ponto {
-	String nomePonto;
+	private String nomePonto;
+
+	public String getNomePonto() {
+		return nomePonto;
+	}
 }

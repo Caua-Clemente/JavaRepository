@@ -1,6 +1,13 @@
 package provaJava;
 
 public class Veiculo {
-	String placa;
-    int anoCompra;
+	private String placa;
+	private int anoCompra;
+	
+	public String getPlaca() {
+		return placa;
+	}
+	public int getAnoCompra() {
+		return anoCompra;
+	}
 }

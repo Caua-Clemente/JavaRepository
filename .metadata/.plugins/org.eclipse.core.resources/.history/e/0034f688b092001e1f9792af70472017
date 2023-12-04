@@ -1,0 +1,14 @@
+package provaJava;
+
+import java.time.LocalDate;
+import java.util.ArrayList;
+import java.util.List;
+
+public class Passageiro {
+	private String nome;
+	private String CPF;
+	private String numCartao;
+	private String tipoCartao;
+	private List<Ponto> pontoEmbarques = new ArrayList<Ponto>();
+	private List<LocalDate> horaEmbarque = new ArrayList<LocalDate>();
+}

@@ -1,0 +1,8 @@
+package provaJava;
+
+import java.time.LocalTime;
+
+public class Checkpoint {
+	private Trecho trecho;
+	private LocalTime fimTrajeto;
+}
